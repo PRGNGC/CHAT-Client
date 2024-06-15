@@ -1,0 +1,45 @@
+@use "@/app/common.scss" as *;
+
+.loginFormBlock {
+	backdrop-filter: blur(72px);
+	box-shadow: 0 4px 21px 0 rgb(94 92 230 / 20%);
+	opacity: 80%;
+	border-radius: 36px;
+	padding: 30px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.loginFormTitle {
+		font-family: "QuintaRegular";
+		font-weight: 100;
+		font-size: 38px;
+		color: #000;
+	}
+
+	.formBlock {
+		width: 100%;
+
+		.inputBlock {
+			.inputBlockTitle {
+				font-weight: 500;
+				font-size: 18px;
+				color: #000;
+				font-family: "FuturaMedium";
+			}
+
+			.loginInput {
+				font-weight: 500;
+				font-size: 16px;
+				color: #000;
+				font-family: "FuturaMedium";
+				width: 92%;
+				padding: 16px;
+				border-radius: 10px;
+				border: none;
+				outline: none;
+			}
+		}
+	}
+}

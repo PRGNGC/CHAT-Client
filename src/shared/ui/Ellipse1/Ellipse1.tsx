@@ -1,0 +1,71 @@
+import styles from "./Ellipse1.module.scss";
+
+export function Ellipse1() {
+	return (
+		<svg
+			className={styles.svg}
+			width="821"
+			height="993"
+			viewBox="0 0 821 993"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<g
+				opacity="0.6"
+				filter="url(#filter0_f_1_3)"
+			>
+				<path
+					d="M1347 362.5C1347 625.664 1347 776.5 1010 887.5C753.188 887.5 75.5 1014.16 75.5 751C75.5 487.836 309.188 12.5 566 12.5C822.812 12.5 967.5 298.5 1347 362.5Z"
+					fill="url(#paint0_linear_1_3)"
+				/>
+			</g>
+			<defs>
+				<filter
+					id="filter0_f_1_3"
+					x="0.5"
+					y="-62.5"
+					width="1421.5"
+					height="1055.47"
+					filterUnits="userSpaceOnUse"
+					color-interpolation-filters="sRGB"
+				>
+					<feFlood
+						flood-opacity="0"
+						result="BackgroundImageFix"
+					/>
+					<feBlend
+						mode="normal"
+						in="SourceGraphic"
+						in2="BackgroundImageFix"
+						result="shape"
+					/>
+					<feGaussianBlur
+						stdDeviation="37.5"
+						result="effect1_foregroundBlur_1_3"
+					/>
+				</filter>
+				<linearGradient
+					id="paint0_linear_1_3"
+					x1="1860"
+					y1="2.67911e-05"
+					x2="1860"
+					y2="953.001"
+					gradientUnits="userSpaceOnUse"
+				>
+					<stop
+						stop-color="#4CDEFE"
+						stop-opacity="0.74"
+					/>
+					<stop
+						offset="0.463542"
+						stop-color="#FACDCB"
+					/>
+					<stop
+						offset="1"
+						stop-color="#BF5AF2"
+					/>
+				</linearGradient>
+			</defs>
+		</svg>
+	);
+}

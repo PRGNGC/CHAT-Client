@@ -1,0 +1,71 @@
+import styles from "./Ellipse2.module.scss";
+
+export function Ellipse2() {
+	return (
+		<svg
+			className={styles.ellipse2}
+			width="810"
+			height="775"
+			viewBox="0 0 810 775"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<g
+				opacity="0.8"
+				filter="url(#filter0_f_1_103)"
+			>
+				<path
+					d="M785 387.5C785 560.089 646.5 551.5 482 700C314.658 700 75 636.089 75 463.5C75 290.911 314.658 75 482 75C649.342 75 785 214.911 785 387.5Z"
+					fill="url(#paint0_linear_1_103)"
+				/>
+			</g>
+			<defs>
+				<filter
+					id="filter0_f_1_103"
+					x="0"
+					y="0"
+					width="860"
+					height="775"
+					filterUnits="userSpaceOnUse"
+					color-interpolation-filters="sRGB"
+				>
+					<feFlood
+						flood-opacity="0"
+						result="BackgroundImageFix"
+					/>
+					<feBlend
+						mode="normal"
+						in="SourceGraphic"
+						in2="BackgroundImageFix"
+						result="shape"
+					/>
+					<feGaussianBlur
+						stdDeviation="37.5"
+						result="effect1_foregroundBlur_1_103"
+					/>
+				</filter>
+				<linearGradient
+					id="paint0_linear_1_103"
+					x1="482"
+					y1="75"
+					x2="482"
+					y2="700"
+					gradientUnits="userSpaceOnUse"
+				>
+					<stop
+						stop-color="#4CDEFE"
+						stop-opacity="0.74"
+					/>
+					<stop
+						offset="0.463542"
+						stop-color="#FACDCB"
+					/>
+					<stop
+						offset="1"
+						stop-color="#BF5AF2"
+					/>
+				</linearGradient>
+			</defs>
+		</svg>
+	);
+}

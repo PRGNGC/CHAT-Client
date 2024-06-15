@@ -1,0 +1,1 @@
+export { NewUserSvg } from "./NewUserSvg";

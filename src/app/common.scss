@@ -1,0 +1,33 @@
+$c-w: #fff;
+
+// Futura Bold font
+@font-face {
+	font-family: "FuturaBold";
+	font-weight: bold;
+	src: local("FuturaBold");
+	src: url("../shared/fonts/FuturaBold.ttf") format("truetype");
+}
+
+// Futura Medium font
+@font-face {
+	font-family: "FuturaMedium";
+	font-weight: 500;
+	src: local("FuturaMedium");
+	src: url("../shared/fonts/FuturaMedium.ttf") format("truetype");
+}
+
+// Quinta Regular font
+@font-face {
+	font-family: "QuintaRegular";
+	font-weight: 100;
+	src: local("QuintaRegular");
+	src: url("../shared/fonts/QuintaRegular.ttf") format("truetype");
+}
+
+// Faustina Italic font
+@font-face {
+	font-family: "FaustinaItalic";
+	font-weight: normal;
+	src: local("FaustinaItalic");
+	src: url("../shared/fonts/FaustinaItalic.ttf") format("truetype");
+}

@@ -1,0 +1,15 @@
+@use "@/app/common.scss" as *;
+
+.loginButton {
+	margin-top: 30px;
+	border-radius: 25px;
+	font-family: "FuturaMedium";
+	background-color: #000;
+	font-weight: 500;
+	font-size: 23px;
+	color: #fff;
+	border: none;
+	padding: 16px 0;
+	width: 100%;
+	cursor: pointer;
+}

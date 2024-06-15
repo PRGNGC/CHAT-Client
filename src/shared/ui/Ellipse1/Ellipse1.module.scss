@@ -1,0 +1,14 @@
+@use "../../../app/common.scss" as *;
+
+.svg {
+	position: absolute;
+	overflow: hidden;
+	z-index: -100;
+	fill: linear-gradient(
+		180deg,
+		rgb(76 222 254 / 74%) 0%,
+		#facdcb 46.35%,
+		#bf5af2 100%
+	);
+	filter: blur(75px);
+}
