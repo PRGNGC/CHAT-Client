@@ -1,0 +1,1 @@
+export { JpgSvg } from "./JpgSvg";

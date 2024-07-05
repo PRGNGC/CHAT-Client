@@ -1,0 +1,1 @@
+export { TypingInfo } from "./TypingInfo";

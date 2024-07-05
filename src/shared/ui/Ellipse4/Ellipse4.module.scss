@@ -1,0 +1,15 @@
+@use "@/app/common.scss" as *;
+
+.ellipse4 {
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	border-radius: 100%;
+	fill: linear-gradient(
+		180deg,
+		#fae5cb 0%,
+		#fd8aff 46.35%,
+		rgb(94 92 230 / 71%) 100%
+	);
+	filter: blur(30px);
+}

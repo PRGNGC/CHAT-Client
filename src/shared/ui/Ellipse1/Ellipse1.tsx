@@ -27,10 +27,10 @@ export function Ellipse1() {
 					width="1421.5"
 					height="1055.47"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB"
+					colorInterpolationFilters="sRGB"
 				>
 					<feFlood
-						flood-opacity="0"
+						floodOpacity="0"
 						result="BackgroundImageFix"
 					/>
 					<feBlend
@@ -53,16 +53,16 @@ export function Ellipse1() {
 					gradientUnits="userSpaceOnUse"
 				>
 					<stop
-						stop-color="#4CDEFE"
-						stop-opacity="0.74"
+						stopColor="#4CDEFE"
+						stopOpacity="0.74"
 					/>
 					<stop
 						offset="0.463542"
-						stop-color="#FACDCB"
+						stopColor="#FACDCB"
 					/>
 					<stop
 						offset="1"
-						stop-color="#BF5AF2"
+						stopColor="#BF5AF2"
 					/>
 				</linearGradient>
 			</defs>

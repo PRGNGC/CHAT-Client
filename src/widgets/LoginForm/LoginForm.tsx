@@ -26,12 +26,6 @@ export function LoginForm() {
 						type="text"
 					/>
 				</div>
-				{/* <button
-					onClick={() => console.log("Login")}
-					className={styles.loginButton}
-				>
-					Log in
-				</button> */}
 				<Login
 					login={login}
 					password={password}

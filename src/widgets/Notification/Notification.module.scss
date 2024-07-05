@@ -1,0 +1,18 @@
+@use "@/app/common.scss" as *;
+
+.notificationBlock {
+	position: relative;
+
+	.notificationList {
+		position: absolute;
+		top: 20px;
+		right: 0;
+		z-index: 2;
+		border-radius: 15px;
+		padding: 15px;
+		width: 300px;
+		backdrop-filter: blur(10px);
+		background-color: rgb(255 255 255 / 40%);
+		box-shadow: 0 4px 21px 0 rgb(94 92 230 / 21%);
+	}
+}

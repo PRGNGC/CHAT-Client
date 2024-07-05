@@ -1,0 +1,1 @@
+export { ExitSvg } from "./ExitSvg";

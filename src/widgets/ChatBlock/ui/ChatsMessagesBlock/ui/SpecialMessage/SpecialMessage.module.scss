@@ -1,0 +1,22 @@
+@use "@/app/common.scss" as *;
+
+.specialMessage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	p {
+		backdrop-filter: blur(72px);
+		box-shadow: 0 4px 21px 0 rgb(94 92 230 / 29%);
+		background: rgb(255 255 255 / 78%);
+		opacity: 54%;
+		border: 1px solid #fff;
+		border-radius: 13px;
+		padding: 12px 26px;
+		font-weight: 500;
+		font-size: 18px;
+		color: #8e8e93;
+		font-family: FuturaMedium, sans-serif;
+		margin: 0;
+	}
+}

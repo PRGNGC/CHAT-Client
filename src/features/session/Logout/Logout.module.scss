@@ -1,0 +1,13 @@
+@use "@/app/common.scss" as *;
+
+.logoutButton {
+	font-family: FuturaMedium, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000;
+	cursor: pointer;
+	border-radius: 25px;
+	padding: 5px 15px;
+	border: none;
+	background-color: transparent;
+}

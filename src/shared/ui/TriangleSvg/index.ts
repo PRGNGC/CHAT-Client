@@ -1,0 +1,1 @@
+export { TriangleSvg } from "./TriangleSvg";

@@ -1,0 +1,44 @@
+@use "@/app/common.scss" as *;
+
+.mainBlockToggler {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+	.toggler {
+		border: 1px solid #fff;
+		border-radius: 15px;
+		min-width: 54px;
+		height: 28px;
+		backdrop-filter: blur(72px);
+		box-shadow: 0 4px 21px 0 rgb(94 92 230 / 52%);
+		background: linear-gradient(
+			180deg,
+			rgb(250 205 203 / 78%) 0%,
+			rgb(76 222 254 / 78%) 29.17%,
+			rgb(191 90 242 / 78%) 66.15%,
+			rgb(94 92 230 / 78%) 100%
+		);
+		cursor: pointer;
+		transition: all 0.5s;
+		position: relative;
+
+		.togglerRound {
+			position: absolute;
+			top: 2px;
+			transition: all 0.5s;
+			width: 24px;
+			height: 24px;
+			background-color: #000;
+			border-radius: 50%;
+		}
+	}
+
+	.togglerText {
+		font-weight: 500;
+		font-size: 18px;
+		color: #000;
+		font-family: FuturaMedium, sans-serif;
+		margin: 0;
+	}
+}

@@ -2,7 +2,7 @@ $c-w: #fff;
 
 // Futura Bold font
 @font-face {
-	font-family: "FuturaBold";
+	font-family: FuturaBold, sans-serif;
 	font-weight: bold;
 	src: local("FuturaBold");
 	src: url("../shared/fonts/FuturaBold.ttf") format("truetype");
@@ -10,7 +10,7 @@ $c-w: #fff;
 
 // Futura Medium font
 @font-face {
-	font-family: "FuturaMedium";
+	font-family: FuturaMedium, sans-serif;
 	font-weight: 500;
 	src: local("FuturaMedium");
 	src: url("../shared/fonts/FuturaMedium.ttf") format("truetype");
@@ -18,7 +18,7 @@ $c-w: #fff;
 
 // Quinta Regular font
 @font-face {
-	font-family: "QuintaRegular";
+	font-family: QuintaRegular, sans-serif;
 	font-weight: 100;
 	src: local("QuintaRegular");
 	src: url("../shared/fonts/QuintaRegular.ttf") format("truetype");
@@ -26,8 +26,16 @@ $c-w: #fff;
 
 // Faustina Italic font
 @font-face {
-	font-family: "FaustinaItalic";
+	font-family: FaustinaItalic, sans-serif;
 	font-weight: normal;
 	src: local("FaustinaItalic");
 	src: url("../shared/fonts/FaustinaItalic.ttf") format("truetype");
+}
+
+// * {
+// 	outline: 1px solid red;
+// }
+
+body {
+	margin: 0;
 }

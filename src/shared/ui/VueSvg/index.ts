@@ -1,0 +1,1 @@
+export { VueSvg } from "./VueSvg";

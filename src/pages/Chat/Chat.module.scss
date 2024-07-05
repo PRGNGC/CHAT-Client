@@ -1,0 +1,24 @@
+@use "@/app/common.scss" as *;
+
+.chatPage {
+	backdrop-filter: blur(0);
+	position: relative;
+	display: flex;
+
+	.chatsNavigationBlock {
+		flex-basis: 17%;
+	}
+
+	.mainBlock {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		flex-basis: 78%;
+		padding: 0 40px 40px;
+
+		.mainBlockContent {
+			display: flex;
+			gap: 20px;
+		}
+	}
+}

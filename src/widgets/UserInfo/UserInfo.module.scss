@@ -1,0 +1,106 @@
+@use "@/app/common.scss" as *;
+
+.userInfoBlock {
+	width: 280px;
+	backdrop-filter: blur(72px);
+	box-shadow: 0 4px 21px 0 rgb(0 0 0 / 25%);
+	border-radius: 32px;
+	padding: 70px 25px;
+
+	.userInfoCredentials {
+		display: flex;
+		align-items: center;
+		gap: 18px;
+
+		.userInfoImg {
+			border-radius: 50%;
+			border: 2px solid #5e5ce6;
+		}
+
+		.userInfoName {
+			font-weight: 500;
+			font-size: 24px;
+			color: #000;
+			font-family: FuturaMedium, sans-serif;
+		}
+	}
+
+	.updateStatusBlock {
+		margin-top: 40px;
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		backdrop-filter: blur(72px);
+		box-shadow: 0 4px 21px 0 rgb(94 92 230 / 21%);
+		border-radius: 8px;
+		padding: 10px 15px;
+		font-weight: 500;
+		font-size: 20px;
+		color: #000;
+		font-family: FuturaMedium, sans-serif;
+		cursor: pointer;
+	}
+
+	.activitySettings {
+		margin-top: 60px;
+		font-weight: 500;
+		font-size: 20px;
+		color: #000;
+		font-family: FuturaMedium, sans-serif;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		list-style: none;
+		padding: 0;
+
+		.onlineStatus {
+			cursor: pointer;
+		}
+
+		.notificationsStatus {
+			cursor: pointer;
+		}
+	}
+
+	.profileSettings {
+		margin-top: 60px;
+		font-weight: 500;
+		font-size: 20px;
+		color: #000;
+		font-family: FuturaMedium, sans-serif;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		list-style: none;
+		padding: 0;
+
+		.editProfile {
+			cursor: pointer;
+		}
+
+		.viewProfile {
+			cursor: pointer;
+		}
+
+		.preferences {
+			cursor: pointer;
+		}
+	}
+
+	.downloads {
+		margin-top: 60px;
+		font-weight: 500;
+		font-size: 20px;
+		color: #000;
+		font-family: FuturaMedium, sans-serif;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		list-style: none;
+		padding: 0;
+
+		.download {
+			cursor: pointer;
+		}
+	}
+}

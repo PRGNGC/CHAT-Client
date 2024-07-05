@@ -1,0 +1,1 @@
+export { XlsxSvg } from "./XlsxSvg";

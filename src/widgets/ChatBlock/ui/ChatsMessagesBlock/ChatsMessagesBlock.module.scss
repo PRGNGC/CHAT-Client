@@ -1,0 +1,173 @@
+@use "@/app/common.scss" as *;
+
+.chatsMessagesBlock {
+	flex-basis: 83%;
+	border-radius: 36px;
+	overflow-y: auto;
+	padding: 0 35px;
+	position: relative;
+
+	.chatsMessages {
+		margin-top: 100px;
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+
+		.othersMessageBlock {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			position: relative;
+
+			.onlineIndicator {
+				position: absolute;
+				top: 40px;
+				left: 45px;
+				z-index: 3;
+				width: 21px;
+				height: 21px;
+				background-color: #24d169;
+				border-radius: 50%;
+			}
+
+			.offlineIndicator {
+				position: absolute;
+				top: 40px;
+				left: 45px;
+				z-index: 3;
+				width: 21px;
+				height: 21px;
+				background-color: #d20303;
+				border-radius: 50%;
+			}
+
+			.commonMessageInfo {
+				display: flex;
+				gap: 20px;
+				justify-content: start;
+				position: relative;
+
+				.userAvatar {
+					border-radius: 50%;
+					border: 2px solid #5e5ce6;
+				}
+
+				.messageTextInfo {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+
+					.userName {
+						font-family: FuturaMedium, sans-serif;
+						font-weight: 500;
+						font-size: 18px;
+						color: #000;
+						margin: 0;
+					}
+
+					.userMessage {
+						font-family: FuturaMedium, sans-serif;
+						font-weight: 500;
+						font-size: 18px;
+						color: #5d5d5f;
+						margin: 0;
+					}
+				}
+			}
+
+			.filesBlock {
+				display: flex;
+				flex-direction: column;
+				align-items: start;
+				gap: 8px;
+
+				.fileInfoBlock {
+					display: flex;
+					align-items: center;
+					flex-direction: row-reverse;
+					gap: 8px;
+					font-family: FuturaMedium, sans-serif;
+					font-weight: 500;
+					font-size: 18px;
+					color: #5d5d5f;
+					margin: 0;
+					text-decoration: none;
+				}
+			}
+		}
+
+		.yourMessageBlock {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			align-items: end;
+
+			.commonMessageInfo {
+				display: flex;
+				flex-direction: row-reverse;
+				gap: 20px;
+
+				.userAvatar {
+					border-radius: 50%;
+					border: 2px solid #5e5ce6;
+				}
+
+				.messageTextInfo {
+					display: flex;
+					flex-direction: column;
+					align-items: end;
+					justify-content: space-between;
+
+					.userName {
+						font-family: FuturaMedium, sans-serif;
+						font-weight: 500;
+						font-size: 18px;
+						color: #000;
+						margin: 0;
+					}
+
+					.userMessage {
+						font-family: FuturaMedium, sans-serif;
+						font-weight: 500;
+						font-size: 18px;
+						color: #5d5d5f;
+						margin: 0;
+						max-width: 935px;
+						text-wrap: wrap;
+					}
+				}
+			}
+
+			.filesBlock {
+				display: flex;
+				flex-direction: column;
+				align-items: end;
+				gap: 8px;
+
+				.fileInfoBlock {
+					display: flex;
+					align-items: center;
+					gap: 8px;
+					font-family: FuturaMedium, sans-serif;
+					font-weight: 500;
+					font-size: 18px;
+					color: #5d5d5f;
+					margin: 0;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.chatsMessagesBlock::-webkit-scrollbar {
+	width: 12px;
+}
+
+.chatsMessagesBlock::-webkit-scrollbar-track {
+	background: white;
+}
+
+.chatsMessagesBlock::-webkit-scrollbar-thumb {
+	background-color: #e8eae6;
+}

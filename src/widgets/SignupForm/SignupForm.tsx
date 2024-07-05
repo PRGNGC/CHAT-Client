@@ -7,6 +7,7 @@ export function SignupForm() {
 	const [login, setLogin] = useState<string>("");
 	const [password, setPassword] = useState<string>("");
 	const [status, setStatus] = useState<string>("");
+	const [name, setName] = useState<string>("");
 	const [img, setImg] = useState<File | null>(null);
 
 	return (
@@ -33,6 +34,14 @@ export function SignupForm() {
 					<p className={styles.inputBlockTitle}>Status</p>
 					<input
 						onChange={(e) => setStatus(e.target.value)}
+						className={styles.signupInput}
+						type="text"
+					/>
+				</div>
+				<div className={styles.inputBlock}>
+					<p className={styles.inputBlockTitle}>Name</p>
+					<input
+						onChange={(e) => setName(e.target.value)}
 						className={styles.signupInput}
 						type="text"
 					/>
@@ -65,6 +74,7 @@ export function SignupForm() {
 					login={login}
 					password={password}
 					status={status}
+					name={name}
 					img={img as File}
 				/>
 			</div>

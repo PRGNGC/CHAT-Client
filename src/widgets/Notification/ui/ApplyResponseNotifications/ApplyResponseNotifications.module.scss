@@ -1,0 +1,10 @@
+@use "@/app/common.scss" as *;
+
+.applyResponseNotification {
+	font-weight: 500;
+	font-size: 18px;
+	color: #000;
+	font-family: FuturaMedium, sans-serif;
+	list-style: none;
+	cursor: pointer;
+}

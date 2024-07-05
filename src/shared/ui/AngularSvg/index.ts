@@ -1,0 +1,1 @@
+export { AngularSvg } from "./AngularSvg";

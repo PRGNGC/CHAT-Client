@@ -1,0 +1,21 @@
+@use "@/app/common.scss" as *;
+
+.notificationTag {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	font-weight: 500;
+	font-size: 15px;
+	color: #fff;
+	font-family: FuturaMedium, sans-serif;
+	margin: 0;
+	background-color: red;
+	width: fit-content;
+	min-width: 15px;
+	height: 15px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3px;
+}

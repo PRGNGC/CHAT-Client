@@ -1,0 +1,1 @@
+export { PptxSvg } from "./PptxSvg";

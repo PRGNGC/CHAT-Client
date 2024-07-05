@@ -1,0 +1,1 @@
+export { ChannelsAccordion } from "./ChannelsAccordion";

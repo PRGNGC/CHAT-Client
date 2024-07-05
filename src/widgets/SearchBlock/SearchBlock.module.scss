@@ -1,0 +1,56 @@
+@use "@/app/common.scss" as *;
+
+.searchBlock {
+	border-radius: 36px;
+	backdrop-filter: blur(72px);
+	box-shadow: 0 4px 21px 0 rgb(94 92 230 / 20%);
+	height: 770px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding: 35px;
+	gap: 20px;
+
+	.categoryBlock {
+		backdrop-filter: blur(72px);
+		box-shadow: 0 4px 21px 0 rgb(0 0 0 / 25%);
+		background: rgb(255 255 255);
+		border: 1px solid #fff;
+		border-radius: 13px;
+		padding: 3px;
+		display: flex;
+		align-items: center;
+
+		.category {
+			flex-basis: 50%;
+			text-align: center;
+			font-weight: 500;
+			font-size: 18px;
+			color: #000;
+			font-family: FuturaMedium, sans-serif;
+			cursor: pointer;
+			padding: 7px;
+		}
+
+		.activeCategory {
+			cursor: pointer;
+			font-weight: 500;
+			font-size: 18px;
+			color: #000;
+			font-family: FuturaMedium, sans-serif;
+			flex-basis: 50%;
+			text-align: center;
+			backdrop-filter: blur(72px);
+			box-shadow: 0 4px 21px 0 rgb(62 61 126 / 31%);
+			background: linear-gradient(
+				270deg,
+				rgb(250 205 203 / 78%) 0%,
+				rgb(76 222 254 / 78%) 29.17%,
+				rgb(191 90 242 / 78%) 66.15%,
+				rgb(94 92 230 / 78%) 100%
+			);
+			padding: 7px;
+			border-radius: 10px;
+		}
+	}
+}
