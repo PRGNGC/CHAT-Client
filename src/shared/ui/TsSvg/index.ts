@@ -1,0 +1,1 @@
+export { TsSvg } from "./TsSvg";

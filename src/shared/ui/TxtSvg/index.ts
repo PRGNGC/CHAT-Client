@@ -1,0 +1,1 @@
+export { TxtSvg } from "./TxtSvg";

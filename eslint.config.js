@@ -46,12 +46,15 @@ export default tseslint.config(
 			parser: tseslint.parser,
 			parserOptions: {
 				// project: ["tsconfig.json"]
-				project: true
+				// project: true
 			}
 		},
 		rules: {
 			"@typescript-eslint/no-non-null-assertion": "warn",
 			"@typescript-eslint/no-unused-vars": "warn",
+			"@typescript-eslint/no-dynamic-delete": "warn",
+			"@typescript-eslint/no-explicit-any": "warn",
+			// "@typescript-eslint/prefer-const": "warn",
 			...prettierPlugin.configs.recommended.rules,
 			...eslintConfigPrettier.rules,
 			...eslintAirbnbConfig.rules

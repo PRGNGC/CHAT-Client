@@ -1,0 +1,1 @@
+export { NewNotificationsIndicator } from "./NewNotificationsIndicator";

@@ -1,5 +1,6 @@
 {
 	"src/**/*.{js,jsx,ts,tsx}": "npx eslint src/**/*.{js,jsx,ts,tsx}",
 	"src/**/*.{js,jsx,ts,tsx,html}": "npx prettier --check",
-	"src/**/*.{css,scss}": "npx stylelint src/**/*.{css,scss}"
+	"src/**/*.{css,scss}": "npx stylelint src/**/*.{css,scss}",
+	"src/**/*.{js,jsx,tsx,ts}": "npx jest src/**/*.{js,jsx,ts,tsx}"
 }

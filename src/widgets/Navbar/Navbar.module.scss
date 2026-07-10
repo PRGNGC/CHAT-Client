@@ -1,0 +1,34 @@
+@use "@/app/common.scss" as *;
+
+.navbarBlock {
+	display: flex;
+	align-items: center;
+	// justify-content: space-around;
+	justify-content: space-between;
+	gap: 130px;
+	padding-top: 40px;
+
+	.navigationBlock {
+		display: flex;
+		align-items: center;
+		gap: 50px;
+
+		.userName {
+			font-family: FuturaMedium, sans-serif;
+			color: white;
+			font-size: 20px;
+		}
+
+		.userAvatarBlock {
+			border: 2px solid #5e5ce6;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			cursor: pointer;
+
+			.userAvatar {
+				border-radius: 50%;
+			}
+		}
+	}
+}

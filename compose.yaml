@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  web:
+    # tty: true
+    depends_on:
+      - api
+    build: .
+    ports:
+      - 5173:5173
+    environment:
+      VITE_API_URL: http://localhost:3500
+    develop:
+      watch:
+        - path: ./package.json
+          action: rebuild
+        - path: .
+          target: /app
+          action: sync
+  api:
+    # tty: true
+    depends_on:
+      - db
+    build: ../chat-server
+    ports:
+      - 3500:3500
+    environment:
+      DB_URL: mongodb://localhost:27017
+    develop:
+      watch:
+        - path: ../chat-server/package.json
+          action: rebuild
+        - path: ../chat-server
+          target: /app
+          action: sync
+  db:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - anime:/data/db
+volumes:
+  anime:

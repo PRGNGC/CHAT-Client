@@ -1,0 +1,1 @@
+export { ClipSvg } from "./ClipSvg";

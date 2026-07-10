@@ -1,11 +1,9 @@
-import styles from "./NewUserSvg.module.scss";
-
 export function NewUserSvg() {
 	return (
 		<svg
 			width="38"
-			height="41"
-			viewBox="0 0 38 41"
+			height="29"
+			viewBox="0 0 38 29"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 		>

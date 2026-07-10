@@ -1,0 +1,1 @@
+export { SearchGlassSvg } from "./SearchGlassSvg";

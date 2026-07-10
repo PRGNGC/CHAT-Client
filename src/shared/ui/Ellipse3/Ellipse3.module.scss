@@ -1,0 +1,18 @@
+@use "@/app/common.scss" as *;
+
+.ellipse3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	z-index: -100;
+	border-radius: 100%;
+	fill: linear-gradient(
+		180deg,
+		#facdcb 0%,
+		#fd8aff 39.06%,
+		rgb(94 92 230 / 71%) 63.02%,
+		rgb(76 222 254 / 74%) 100%
+	);
+	filter: blur(75px);
+}

@@ -1,0 +1,1 @@
+export { StarSvg } from "./StarSvg";

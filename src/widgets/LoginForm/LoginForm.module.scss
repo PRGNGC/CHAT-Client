@@ -1,8 +1,8 @@
-@use "@/app/common.scss" as *;
+// @use "@/app/common.scss" as *;
 
 .loginFormBlock {
 	backdrop-filter: blur(72px);
-	box-shadow: 0 4px 21px 0 rgb(94 92 230 / 20%);
+	box-shadow: 0 4px 21px 0 rgba(0 0 0 / 60%);
 	opacity: 80%;
 	border-radius: 36px;
 	padding: 30px;
@@ -12,33 +12,53 @@
 	align-items: center;
 
 	.loginFormTitle {
-		font-family: "QuintaRegular";
+		font-family: QuintaRegular, sans-serif;
 		font-weight: 100;
 		font-size: 38px;
 		color: #000;
+		// color: #fff;
 	}
 
 	.formBlock {
 		width: 100%;
+
+		.alert {
+			color: orangered;
+			font-size: 18px;
+			// font-weight: 700;
+		}
 
 		.inputBlock {
 			.inputBlockTitle {
 				font-weight: 500;
 				font-size: 18px;
 				color: #000;
-				font-family: "FuturaMedium";
+				// color: #fff;
+				font-family: FuturaMedium, sans-serif;
 			}
 
 			.loginInput {
 				font-weight: 500;
 				font-size: 16px;
 				color: #000;
-				font-family: "FuturaMedium";
+				font-family: FuturaMedium, sans-serif;
 				width: 92%;
 				padding: 16px;
 				border-radius: 10px;
 				border: none;
 				outline: none;
+			}
+
+			.passwordField {
+				display: flex;
+				align-items: center;
+				background-color: white;
+				border-radius: 10px;
+				max-height: 50.67px;
+
+				.loginInput {
+					background-color: transparent;
+				}
 			}
 		}
 	}

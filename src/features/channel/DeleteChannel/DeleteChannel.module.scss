@@ -1,0 +1,14 @@
+@use "@/app/common.scss" as *;
+
+.delBtn {
+	border-radius: 25px;
+	background-color: #000;
+	border: none;
+	outline: none;
+	font-weight: 500;
+	font-size: 20px;
+	color: #fff;
+	font-family: FuturaMedium, sans-serif;
+	padding: 7px 14px;
+	cursor: pointer;
+}

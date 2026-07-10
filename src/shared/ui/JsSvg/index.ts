@@ -1,0 +1,1 @@
+export { JsSvg } from "./JsSvg";

@@ -11,7 +11,7 @@ export function Ellipse2() {
 			xmlns="http://www.w3.org/2000/svg"
 		>
 			<g
-				opacity="0.8"
+				opacity="0.3"
 				filter="url(#filter0_f_1_103)"
 			>
 				<path
@@ -27,10 +27,10 @@ export function Ellipse2() {
 					width="860"
 					height="775"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB"
+					colorInterpolationFilters="sRGB"
 				>
 					<feFlood
-						flood-opacity="0"
+						floodOpacity="0"
 						result="BackgroundImageFix"
 					/>
 					<feBlend
@@ -53,16 +53,16 @@ export function Ellipse2() {
 					gradientUnits="userSpaceOnUse"
 				>
 					<stop
-						stop-color="#4CDEFE"
-						stop-opacity="0.74"
+						stopColor="#4CDEFE"
+						stopOpacity="0.74"
 					/>
 					<stop
 						offset="0.463542"
-						stop-color="#FACDCB"
+						stopColor="#FACDCB"
 					/>
 					<stop
 						offset="1"
-						stop-color="#BF5AF2"
+						stopColor="#BF5AF2"
 					/>
 				</linearGradient>
 			</defs>

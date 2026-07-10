@@ -1,0 +1,1 @@
+export { ReactSvg } from "./ReactSvg";
